@@ -4,7 +4,10 @@ html
         title= title
 
     body
-        h1 #{title}
-        p explore our service
-        a.homePageRoute(href='/') home
-        a.contactUsRouter(href='/contactUs') contact us
+        nav
+            a.homePageRoute(href='/') home
+            a.contactUsRouter(href='/contactUs') contact us
+        
+        div.container
+            h1 #{title}
+            p explore our service
