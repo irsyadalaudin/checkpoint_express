@@ -15,7 +15,7 @@ app.use('/ourService', ourServiceRouter)
 const contactUsRouter = require('./routes/contactUs')
 app.use('/contactUs', contactUsRouter)
 
-app.use(express.static('public'));
+app.use(express.static('public')); 						// this is for serving static files like css, js, images, etc.
 
 app.listen(port, () => {
 	console.log(`the server is running on port http://localhost:${port}`)
