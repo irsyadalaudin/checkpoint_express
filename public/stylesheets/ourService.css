@@ -11,8 +11,10 @@ nav {
 }
 
 .homePage, .contactUs {
+    text-decoration: none;
     background-color: burlywood;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .contactUs {
