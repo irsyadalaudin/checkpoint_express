@@ -1,8 +1,10 @@
 const express = require('express');
+const auth = require('./middlewares/userAuth');
 const path = require('path')
 const app = express();
 const port = 5000;
 
+// Use Express to create the server and handle routes
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
