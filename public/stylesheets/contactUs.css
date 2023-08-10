@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(188, 156, 114);
+    height: 8vh;
+    padding-left: 50px;
+}
+
+.homePage, .ourService {
+    text-decoration: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ourService {
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    background-color: burlywood;
+}
