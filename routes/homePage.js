@@ -4,7 +4,7 @@ const auth = require('../middlewares/userAuth');
 const homePageRouter = express.Router();
 
 /* GET home page */
-homePageRouter.get('/', (req, res, next) => {                   // Define a route for handling GET requests to the '/' URL
+homePageRouter.get('/', (req, res, next) => {                   // Define a route for handling GET requests to the '/homePage' URL
     res.render('homePage', { title: 'home page express' });	    // Handle the GET request by rendering the 'homePage' view (template)
 });                                                             // and passing the title 'home page express' to the view 
 
