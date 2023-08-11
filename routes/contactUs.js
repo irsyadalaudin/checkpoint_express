@@ -2,7 +2,7 @@
 const express = require('express');
 const contactUsRouter = express.Router();
 
-/* GET users listing. */
+/* GET contactUs page. */
 contactUsRouter.get('/', (req, res, next) => {			// Define a route for handling GET requests to the '/contactUs' URL
 	res.render('contactUs', {title: 'contact us'});	    // Handle the GET request by rendering the 'contactUs' view (template)
 });													    // and passing the title 'contact us' to the view
